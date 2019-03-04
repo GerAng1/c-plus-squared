@@ -1,3 +1,5 @@
+Broke my nose, learning new language.
+
 COMPILING
 g++ hello.cpp
 EXECUTING
