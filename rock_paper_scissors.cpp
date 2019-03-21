@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdlib.h>
+#include <stdlib.h> // Aqui esta el rand
 
 int main() {
   srand(time(NULL));
