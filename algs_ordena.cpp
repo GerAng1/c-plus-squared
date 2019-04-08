@@ -65,12 +65,12 @@ void Selection::ordena(int* lista, int tam) {
 }
 
 int main(){
-    Insertion o;//Cambien por el nombre de su clase de ordenamiento
-    int a[]={5,4,3,3,1};
+    Bubble o;
+    int a[]={12, 4, 2, 9, 7, 8};
 
-    o.ordena((int *)&a, 5);
+    o.ordena((int *)&a, 6);
 
-    for(int i=0; i<5; i++){
+    for(int i = 0; i < 6; i++){
         std::cout << a[i] <<endl;
     }
 
