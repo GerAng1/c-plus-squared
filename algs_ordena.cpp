@@ -71,7 +71,7 @@ int main(){
     o.ordena((int *)&a, 6);
 
     for(int i = 0; i < 6; i++){
-        std::cout << a[i] <<endl;
+        std::cout << a[i] << endl;
     }
 
     return 0;
