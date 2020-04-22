@@ -18,7 +18,8 @@ public:
 };
 
 // ------------------------------
-class ex1 {
+class ex1
+{
 public:
     char* A;
     ex1(const char*);
@@ -43,23 +44,26 @@ void ex1 :: setA(const char* b) {
 }
 
 // ------------------------------
-class ex3 {
+class ex3
+{
 public:
     int* a = new int;
-    ex3() {};
-    ~ex3() {delete a;};
+    ex3() { };
+    ~ex3() { delete a; };
 };
 
-class ex4: ex3 {
+class ex4: ex3
+{
 public:
     int* a = new int;
-    ex4() {};
-    ~ex4() {delete a;};
+    ex4() { };
+    ~ex4() { delete a; };
 };
 
-int main() {
+int main()
+{
     ex4* e1;
-    ex3 * e2;
+    ex3* e2;
     e1 = new ex4;
     e2 = new ex3;
 
