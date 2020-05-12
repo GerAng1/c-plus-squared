@@ -2,6 +2,17 @@
 #include <cstdlib>   // rand() y srand();
 #include <ctime>     // time()
 
+void nones(int arr[], int tam)
+{
+  for(int i = 0; i < tam; ++i)
+  {
+    if(i % 2 == 0)
+    {
+      arr[i] = 0;
+    }
+  }
+}
+
 
 int main(int argc, char const *argv[])
 {
@@ -19,6 +30,14 @@ int main(int argc, char const *argv[])
     }
 
     std::cout << "Tamaño: " << *(&arr + 1) - arr << std::endl;
+
+    nones(arr, tam);
+
+    int j = 0;
+    while(j++ < tam)
+    {
+        std::cout << arr[j] << '\n';
+    }
 
     return 0;
 }

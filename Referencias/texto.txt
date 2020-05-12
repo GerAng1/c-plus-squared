@@ -1,0 +1,13 @@
+hola a todos
+como estamos
+mi nombre es
+Gerardo
+Anglada 
+de 
+Landa.
+
+Deje una linea en blanco
+algunos de estos tienen un espacio
+al final de la linea.
+
+
