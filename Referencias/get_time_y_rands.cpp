@@ -1,7 +1,7 @@
 // EJEMPLO QUE OBTIENE EL TIEMPO EN HACER OPERACIONES DE PUNTO 'A' A 'B'
 #include <iostream> // cin y cout
 #include <cstdlib>  // rand() y srand()
-#include <ctime>    // clock() y time() [para rands]
+#include <ctime>    // time() [para rands]
 #include <chrono>   // std::chrono::high_resolution_clock::now()
 
 
