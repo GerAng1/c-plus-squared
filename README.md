@@ -12,7 +12,7 @@ Decided to learn a new language.
 - Elaborate exercises implementing 1 or more scripts.
 
 ### templates/
-- Blank scripts to geet started with new project.
+- Blank scripts to get started with new project.
 
 # Some basic commands
 
